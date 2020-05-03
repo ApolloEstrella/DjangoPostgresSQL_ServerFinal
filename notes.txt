@@ -317,3 +317,4 @@ You should consider upgrading via the 'python -m pip install --upgrade pip' comm
 (env)
 stars@DESKTOP-GT4AAMB MINGW64 /d/testprojects/djangopostgressql/django_jsonapi
 $ python manage.py runserver
+https://dev.to/nobleobioma/build-a-crud-django-rest-api-46kc
