@@ -1,0 +1,319 @@
+
+stars@DESKTOP-GT4AAMB MINGW64 ~
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ aspnet-WebApplication1-87019460-8D6F-46F0-B99A-E18F9EAC36D7.mdf
+ aspnet-WebApplication1-87019460-8D6F-46F0-B99A-E18F9EAC36D7_log.ldf
+ CityInfoDb.mdf
+ CityInfoDb_log.ldf
+ coffeelint.json
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Dropbox/
+ Envs/
+ Favorites/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ LoginDb.mdf
+ LoginDb_log.ldf
+ LoginInfoDb.mdf
+ LoginInfoDb_log.ldf
+ mercurial.ini
+ MicrosoftEdgeBackups/
+ Music/
+'My Documents'@
+ NetHood@
+ node_modules/
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{64067678-532d-11ea-adf3-c65ea0792820}.TM.blf
+ NTUSER.DAT{64067678-532d-11ea-adf3-c65ea0792820}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{64067678-532d-11ea-adf3-c65ea0792820}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ OneDrive/
+ package-lock.json
+ Pictures/
+ Postman/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ source/
+ SportsStoreDb.mdf
+ SportsStoreDb_log.ldf
+ SportsStoreIdentityDb.mdf
+ SportsStoreIdentityDb_log.ldf
+'Start Menu'@
+ Templates@
+ Tracing/
+ tslint.json
+ Videos/
+
+stars@DESKTOP-GT4AAMB MINGW64 ~
+$ cd "d:"
+
+stars@DESKTOP-GT4AAMB MINGW64 /d
+$ cd testprojects
+
+stars@DESKTOP-GT4AAMB MINGW64 /d/testprojects
+$ ls
+Angular/            Graphql/        notes.txt     VS2017/
+ASPNetCoreApi/      GraphqlPrisma/  Php/          VueJs/
+Console/            Mathieu/        Phyton/       WebApi/
+DjangoPostgresSQL/  Mobile/         React/        WebApplicationCore/
+ExternalProviders/  NodeApi/        ReactNative/
+GoogleMapApi/       NodeJs/         Redux/
+
+stars@DESKTOP-GT4AAMB MINGW64 /d/testprojects
+$ cd djangopostgressql
+
+stars@DESKTOP-GT4AAMB MINGW64 /d/testprojects/djangopostgressql
+$ ls
+p01/  p02/
+
+stars@DESKTOP-GT4AAMB MINGW64 /d/testprojects/djangopostgressql
+$ mkdir django_jsonapi
+
+stars@DESKTOP-GT4AAMB MINGW64 /d/testprojects/djangopostgressql
+$ cd django_jsonapi
+
+stars@DESKTOP-GT4AAMB MINGW64 /d/testprojects/djangopostgressql/django_jsonapi
+$ python3
+bash: python3: command not found
+
+stars@DESKTOP-GT4AAMB MINGW64 /d/testprojects/djangopostgressql/django_jsonapi
+$ python -m venv env
+
+stars@DESKTOP-GT4AAMB MINGW64 /d/testprojects/djangopostgressql/django_jsonapi
+$ source env/bin/activate
+bash: env/bin/activate: No such file or directory
+
+stars@DESKTOP-GT4AAMB MINGW64 /d/testprojects/djangopostgressql/django_jsonapi
+$ ls
+env/
+
+stars@DESKTOP-GT4AAMB MINGW64 /d/testprojects/djangopostgressql/django_jsonapi
+$ source env/bin/activate
+bash: env/bin/activate: No such file or directory
+
+stars@DESKTOP-GT4AAMB MINGW64 /d/testprojects/djangopostgressql/django_jsonapi
+$ source env/scripts/activate
+(env)
+stars@DESKTOP-GT4AAMB MINGW64 /d/testprojects/djangopostgressql/django_jsonapi
+$ pip install django
+Collecting django
+  Using cached https://files.pythonhosted.org/packages/a9/4f/8a247eee2958529a6a805d38fbacd9764fd566462fa0016aa2a2947ab2a6/Django-3.0.5-py3-none-any.whl
+Collecting asgiref~=3.2 (from django)
+  Using cached https://files.pythonhosted.org/packages/68/00/25013f7310a56d17e1ab6fd885d5c1f216b7123b550d295c93f8e29d372a/asgiref-3.2.7-py2.py3-none-any.whl
+Collecting pytz (from django)
+  Using cached https://files.pythonhosted.org/packages/4f/a4/879454d49688e2fad93e59d7d4efda580b783c745fd2ec2a3adf87b0808d/pytz-2020.1-py2.py3-none-any.whl
+Collecting sqlparse>=0.2.2 (from django)
+  Using cached https://files.pythonhosted.org/packages/85/ee/6e821932f413a5c4b76be9c5936e313e4fc626b33f16e027866e1d60f588/sqlparse-0.3.1-py2.py3-none-any.whl
+Installing collected packages: asgiref, pytz, sqlparse, django
+Successfully installed asgiref-3.2.7 django-3.0.5 pytz-2020.1 sqlparse-0.3.1
+WARNING: You are using pip version 19.2.3, however version 20.1 is available.
+You should consider upgrading via the 'python -m pip install --upgrade pip' command.
+(env)
+stars@DESKTOP-GT4AAMB MINGW64 /d/testprojects/djangopostgressql/django_jsonapi
+$ django-admin startproject django_jsonapi .
+(env)
+stars@DESKTOP-GT4AAMB MINGW64 /d/testprojects/djangopostgressql/django_jsonapi
+$ django-admin starapp opinion_ate
+No Django settings specified.
+Unknown command: 'starapp'. Did you mean startapp?
+Type 'django-admin help' for usage.
+(env)
+stars@DESKTOP-GT4AAMB MINGW64 /d/testprojects/djangopostgressql/django_jsonapi
+$ django-admin startapp opinion_ate
+(env)
+stars@DESKTOP-GT4AAMB MINGW64 /d/testprojects/djangopostgressql/django_jsonapi
+$ python manage.py makemigrations opinion_ate
+Traceback (most recent call last):
+  File "D:\testprojects\djangopostgressql\django_jsonapi\env\lib\site-packages\django\db\backends\postgresql\base.py", line 25, in <module>
+    import psycopg2 as Database
+ModuleNotFoundError: No module named 'psycopg2'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "manage.py", line 21, in <module>
+    main()
+  File "manage.py", line 17, in main
+    execute_from_command_line(sys.argv)
+  File "D:\testprojects\djangopostgressql\django_jsonapi\env\lib\site-packages\django\core\management\__init__.py", line 401, in execute_from_command_line
+    utility.execute()
+  File "D:\testprojects\djangopostgressql\django_jsonapi\env\lib\site-packages\django\core\management\__init__.py", line 377, in execute
+    django.setup()
+  File "D:\testprojects\djangopostgressql\django_jsonapi\env\lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "D:\testprojects\djangopostgressql\django_jsonapi\env\lib\site-packages\django\apps\registry.py", line 114, in populate
+    app_config.import_models()
+  File "D:\testprojects\djangopostgressql\django_jsonapi\env\lib\site-packages\django\apps\config.py", line 211, in import_models
+    self.models_module = import_module(models_module_name)
+  File "D:\Program Files (x86)\Python38-32\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "D:\testprojects\djangopostgressql\django_jsonapi\env\lib\site-packages\django\contrib\auth\models.py", line 2, in <module>
+    from django.contrib.auth.base_user import AbstractBaseUser, BaseUserManager
+  File "D:\testprojects\djangopostgressql\django_jsonapi\env\lib\site-packages\django\contrib\auth\base_user.py", line 47, in <module>
+    class AbstractBaseUser(models.Model):
+  File "D:\testprojects\djangopostgressql\django_jsonapi\env\lib\site-packages\django\db\models\base.py", line 121, in __new__
+    new_class.add_to_class('_meta', Options(meta, app_label))
+  File "D:\testprojects\djangopostgressql\django_jsonapi\env\lib\site-packages\django\db\models\base.py", line 325, in add_to_class
+    value.contribute_to_class(cls, name)
+  File "D:\testprojects\djangopostgressql\django_jsonapi\env\lib\site-packages\django\db\models\options.py", line 208, in contribute_to_class
+    self.db_table = truncate_name(self.db_table, connection.ops.max_name_length())
+  File "D:\testprojects\djangopostgressql\django_jsonapi\env\lib\site-packages\django\db\__init__.py", line 28, in __getattr__
+    return getattr(connections[DEFAULT_DB_ALIAS], item)
+  File "D:\testprojects\djangopostgressql\django_jsonapi\env\lib\site-packages\django\db\utils.py", line 207, in __getitem__
+    backend = load_backend(db['ENGINE'])
+  File "D:\testprojects\djangopostgressql\django_jsonapi\env\lib\site-packages\django\db\utils.py", line 111, in load_backend
+    return import_module('%s.base' % backend_name)
+  File "D:\Program Files (x86)\Python38-32\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "D:\testprojects\djangopostgressql\django_jsonapi\env\lib\site-packages\django\db\backends\postgresql\base.py", line 29, in <module>
+    raise ImproperlyConfigured("Error loading psycopg2 module: %s" % e)
+django.core.exceptions.ImproperlyConfigured: Error loading psycopg2 module: No module named 'psycopg2'
+(env)
+stars@DESKTOP-GT4AAMB MINGW64 /d/testprojects/djangopostgressql/django_jsonapi
+$ python manage.py makemigrations opinion_ate
+Traceback (most recent call last):
+  File "D:\testprojects\djangopostgressql\django_jsonapi\env\lib\site-packages\django\db\backends\postgresql\base.py", line 25, in <module>
+    import psycopg2 as Database
+ModuleNotFoundError: No module named 'psycopg2'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "manage.py", line 21, in <module>
+    main()
+  File "manage.py", line 17, in main
+    execute_from_command_line(sys.argv)
+  File "D:\testprojects\djangopostgressql\django_jsonapi\env\lib\site-packages\django\core\management\__init__.py", line 401, in execute_from_command_line
+    utility.execute()
+  File "D:\testprojects\djangopostgressql\django_jsonapi\env\lib\site-packages\django\core\management\__init__.py", line 377, in execute
+    django.setup()
+  File "D:\testprojects\djangopostgressql\django_jsonapi\env\lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "D:\testprojects\djangopostgressql\django_jsonapi\env\lib\site-packages\django\apps\registry.py", line 114, in populate
+    app_config.import_models()
+  File "D:\testprojects\djangopostgressql\django_jsonapi\env\lib\site-packages\django\apps\config.py", line 211, in import_models
+    self.models_module = import_module(models_module_name)
+  File "D:\Program Files (x86)\Python38-32\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "D:\testprojects\djangopostgressql\django_jsonapi\env\lib\site-packages\django\contrib\auth\models.py", line 2, in <module>
+    from django.contrib.auth.base_user import AbstractBaseUser, BaseUserManager
+  File "D:\testprojects\djangopostgressql\django_jsonapi\env\lib\site-packages\django\contrib\auth\base_user.py", line 47, in <module>
+    class AbstractBaseUser(models.Model):
+  File "D:\testprojects\djangopostgressql\django_jsonapi\env\lib\site-packages\django\db\models\base.py", line 121, in __new__
+    new_class.add_to_class('_meta', Options(meta, app_label))
+  File "D:\testprojects\djangopostgressql\django_jsonapi\env\lib\site-packages\django\db\models\base.py", line 325, in add_to_class
+    value.contribute_to_class(cls, name)
+  File "D:\testprojects\djangopostgressql\django_jsonapi\env\lib\site-packages\django\db\models\options.py", line 208, in contribute_to_class
+    self.db_table = truncate_name(self.db_table, connection.ops.max_name_length())
+  File "D:\testprojects\djangopostgressql\django_jsonapi\env\lib\site-packages\django\db\__init__.py", line 28, in __getattr__
+    return getattr(connections[DEFAULT_DB_ALIAS], item)
+  File "D:\testprojects\djangopostgressql\django_jsonapi\env\lib\site-packages\django\db\utils.py", line 207, in __getitem__
+    backend = load_backend(db['ENGINE'])
+  File "D:\testprojects\djangopostgressql\django_jsonapi\env\lib\site-packages\django\db\utils.py", line 111, in load_backend
+    return import_module('%s.base' % backend_name)
+  File "D:\Program Files (x86)\Python38-32\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "D:\testprojects\djangopostgressql\django_jsonapi\env\lib\site-packages\django\db\backends\postgresql\base.py", line 29, in <module>
+    raise ImproperlyConfigured("Error loading psycopg2 module: %s" % e)
+django.core.exceptions.ImproperlyConfigured: Error loading psycopg2 module: No module named 'psycopg2'
+(env)
+stars@DESKTOP-GT4AAMB MINGW64 /d/testprojects/djangopostgressql/django_jsonapi
+$ pip install psycopg2
+Collecting psycopg2
+  Using cached https://files.pythonhosted.org/packages/0c/b6/59c9f4f8e470247776a97cc54fa7c6f34a63b6c32ed13721499b7e79cbcd/psycopg2-2.8.5-cp38-cp38-win32.whl
+Installing collected packages: psycopg2
+Successfully installed psycopg2-2.8.5
+WARNING: You are using pip version 19.2.3, however version 20.1 is available.
+You should consider upgrading via the 'python -m pip install --upgrade pip' command.
+(env)
+stars@DESKTOP-GT4AAMB MINGW64 /d/testprojects/djangopostgressql/django_jsonapi
+$ python manage.py makemigrations opinion_ate
+Migrations for 'opinion_ate':
+  opinion_ate\migrations\0001_initial.py
+    - Create model Author
+    - Create model Movie
+(env)
+stars@DESKTOP-GT4AAMB MINGW64 /d/testprojects/djangopostgressql/django_jsonapi
+$ python manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, opinion_ate, sessions
+Running migrations:
+  Applying opinion_ate.0001_initial... OK
+(env)
+stars@DESKTOP-GT4AAMB MINGW64 /d/testprojects/djangopostgressql/django_jsonapi
+$ pip install djangorestframework
+Collecting djangorestframework
+  Using cached https://files.pythonhosted.org/packages/be/5b/9bbde4395a1074d528d6d9e0cc161d3b99bd9d0b2b558ca919ffaa2e0068/djangorestframework-3.11.0-py3-none-any.whl
+Requirement already satisfied: django>=1.11 in d:\testprojects\djangopostgressql\django_jsonapi\env\lib\site-packages (from djangorestframework) (3.0.5)
+Requirement already satisfied: sqlparse>=0.2.2 in d:\testprojects\djangopostgressql\django_jsonapi\env\lib\site-packages (from django>=1.11->djangorestframework) (0.3.1)
+Requirement already satisfied: pytz in d:\testprojects\djangopostgressql\django_jsonapi\env\lib\site-packages (from django>=1.11->djangorestframework) (2020.1)
+Requirement already satisfied: asgiref~=3.2 in d:\testprojects\djangopostgressql\django_jsonapi\env\lib\site-packages (from django>=1.11->djangorestframework) (3.2.7)
+Installing collected packages: djangorestframework
+Successfully installed djangorestframework-3.11.0
+WARNING: You are using pip version 19.2.3, however version 20.1 is available.
+You should consider upgrading via the 'python -m pip install --upgrade pip' command.
+(env)
+stars@DESKTOP-GT4AAMB MINGW64 /d/testprojects/djangopostgressql/django_jsonapi
+$ pip install djangorestframework-jsonapi
+Collecting djangorestframework-jsonapi
+  Downloading https://files.pythonhosted.org/packages/5b/4b/3951b86d48a9d173549417be9a278547783919ad6182a7cfd9a098be2cdf/djangorestframework_jsonapi-3.1.0-py2.py3-none-any.whl (209kB)
+Requirement already satisfied: django>=1.11 in d:\testprojects\djangopostgressql\django_jsonapi\env\lib\site-packages (from djangorestframework-jsonapi) (3.0.5)
+Requirement already satisfied: djangorestframework>=3.10 in d:\testprojects\djangopostgressql\django_jsonapi\env\lib\site-packages (from djangorestframework-jsonapi) (3.11.0)
+Collecting inflection>=0.3.0 (from djangorestframework-jsonapi)
+  Downloading https://files.pythonhosted.org/packages/52/c1/36be286d85dbd76527fb613527222a795d7c071da195fa916e7bf3cb03cb/inflection-0.4.0-py2.py3-none-any.whl
+Requirement already satisfied: asgiref~=3.2 in d:\testprojects\djangopostgressql\django_jsonapi\env\lib\site-packages (from django>=1.11->djangorestframework-jsonapi) (3.2.7)
+Requirement already satisfied: pytz in d:\testprojects\djangopostgressql\django_jsonapi\env\lib\site-packages (from django>=1.11->djangorestframework-jsonapi) (2020.1)
+Requirement already satisfied: sqlparse>=0.2.2 in d:\testprojects\djangopostgressql\django_jsonapi\env\lib\site-packages (from django>=1.11->djangorestframework-jsonapi) (0.3.1)
+Installing collected packages: inflection, djangorestframework-jsonapi
+Successfully installed djangorestframework-jsonapi-3.1.0 inflection-0.4.0
+WARNING: You are using pip version 19.2.3, however version 20.1 is available.
+You should consider upgrading via the 'python -m pip install --upgrade pip' command.
+(env)
+stars@DESKTOP-GT4AAMB MINGW64 /d/testprojects/djangopostgressql/django_jsonapi
+$ pip install django-filter
+Collecting django-filter
+  Downloading https://files.pythonhosted.org/packages/0a/c9/acc63b687002afae8b5137afd6230d88c99411aa2daedf07fed3f0913516/django_filter-2.2.0-py3-none-any.whl (69kB)
+Requirement already satisfied: Django>=1.11 in d:\testprojects\djangopostgressql\django_jsonapi\env\lib\site-packages (from django-filter) (3.0.5)
+Requirement already satisfied: sqlparse>=0.2.2 in d:\testprojects\djangopostgressql\django_jsonapi\env\lib\site-packages (from Django>=1.11->django-filter) (0.3.1)
+Requirement already satisfied: pytz in d:\testprojects\djangopostgressql\django_jsonapi\env\lib\site-packages (from Django>=1.11->django-filter) (2020.1)
+Requirement already satisfied: asgiref~=3.2 in d:\testprojects\djangopostgressql\django_jsonapi\env\lib\site-packages (from Django>=1.11->django-filter) (3.2.7)
+Installing collected packages: django-filter
+Successfully installed django-filter-2.2.0
+WARNING: You are using pip version 19.2.3, however version 20.1 is available.
+You should consider upgrading via the 'python -m pip install --upgrade pip' command.
+(env)
+stars@DESKTOP-GT4AAMB MINGW64 /d/testprojects/djangopostgressql/django_jsonapi
+$ pip install rest_framework_json_api
+Collecting rest_framework_json_api
+  ERROR: Could not find a version that satisfies the requirement rest_framework_json_api (from versions: none)
+ERROR: No matching distribution found for rest_framework_json_api
+WARNING: You are using pip version 19.2.3, however version 20.1 is available.
+You should consider upgrading via the 'python -m pip install --upgrade pip' command.
+(env)
+stars@DESKTOP-GT4AAMB MINGW64 /d/testprojects/djangopostgressql/django_jsonapi
+$ python manage.py runserver
